@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
+import Timeline from './Timeline.jsx';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="min-h-screen w-full font-serif bg-[#f7f7f7]">
         <Navbar />
          <Hero />
+         <Timeline/>
        {/* <Nations /> */}
 </div>
 );
