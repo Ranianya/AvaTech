@@ -1,120 +1,42 @@
 import React from "react";
-import './Timeline.css'
-export default function Aze() {
- 
-  
-    return(
-      <section className="container">
-        <div className="title">
-          <h1>
-            THE EVENT TIMELINE 
-          </h1>
-        </div>
-        <div className="day1">
-            <h1 className="date1">DATE :</h1>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">9:00 AM</h1>
-              </div>
-              <h1 className="info">Check-in</h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">9:30 AM</h1>
-              </div>
-              <h1 className="info">Opening Ceremony </h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">10:00 AM</h1>
-              </div>
-              <h1 className="info">Workshops</h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">12:30 PM</h1>
-              </div>
-              <h1 className="info">Lunch Break </h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">13:30 PM</h1>
-              </div>
-              <h1 className="info">Start of the first competetion</h1>
-            </div>
-        </div>
-        <div className="day2">
-            <h1 className="date1">DATE :</h1>
-            <div className="double2">
-              
-              <h1 className="info">Check-in</h1>
-              <div className="circle">
-                <h1 className="date-in">9:30 AM</h1>
-              </div>
-            </div>
-            <div className="double2">
-             
-              <h1 className="info">Second workshop </h1>
-              <div className="circle">
-                <h1 className="date-in">10:00 AM</h1>
-              </div>
-            </div>
-            <div className="double2">
-             
-              <h1 className="info">lunch break</h1>
-              <div className="circle">
-                <h1 className="date-in">12:00 PM</h1>
-              </div>
-            </div>
-            <div className="double2">
-              
-              <h1 className="info">second competion</h1>
-              <div className="circle">
-                <h1 className="date-in">13:30 PM</h1>
-              </div>
-            </div>
-        </div>
-        <div className="day1">
-            <h1 className="date1">DATE</h1>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">9:00 AM</h1>
-              </div>
-              <h1 className="info">Check-in</h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">9:30 AM</h1>
-              </div>
-              <h1 className="info">third workshop </h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">11:00 AM</h1>
-              </div>
-              <h1 className="info">Lunch Break</h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">12:30 PM</h1>
-              </div>
-              <h1 className="info">last competion (catch the flag) </h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">16:00 PM</h1>
-              </div>
-              <h1 className="info">snack break</h1>
-            </div>
-            <div className="double">
-              <div className="circle">
-                <h1 className="date-in">16:30 PM</h1>
-              </div>
-              <h1 className="info">closing ceremony / winner announcement / networking</h1>
-            </div>
-        </div>
-        
-      </section>
-    );  
-};
+import './Timeline.css';
 
+export default function Timelinee2(){
+return(
+  <section className="container">
+  <h1 className="eve">EVENT TIMELINE</h1>
+  <div className="phs">
+  <div className="ph" id="ph1">
+  <h1 className="phase">Phase1 :</h1> 
+  <img src="../src/assets/firstim.png" alt="non" width="400" />
+  <h1 className="title">Dear bender</h1>
+    <ul className="list">
+    <li className="point">openning ceremony</li> 
+    <li className="point">workshops</li>
+    <li className="point">first challenge (WATER TRIBE)</li>
+    </ul>
+  </div>
+  <div className="ph" id="ph2">
+  <h1 className="phase">Phase2 :</h1> 
+  <img src="../src/assets/secondim.png" alt="non" width="400" />
+  <h1 className="title">BE READY</h1>
+    <ul className="list">
+    <li className="point">challenges 2,3,4 (FIRE, EARTH, AIR)</li> 
+    <li className="point">sabotaging tests</li>
+    <li className="point">obtention of codes 2,3 and 4</li>
+    </ul>
+  </div>
+  <div className="ph" id="ph3">
+  <h1 className="phase">Phase3 :</h1> 
+  <img src="../src/assets/thirdim.png" alt="non" width="400" />
+  <h1 className="title">BE READY</h1>
+    <ul className="list">
+    <li className="point">Finale catch the flag</li> 
+    <li className="point">Closing ceremony</li>
+    <li className="point">Networking</li>
+    </ul>
+  </div>
+  </div>
+  </section>
+);
+};
