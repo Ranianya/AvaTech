@@ -1,0 +1,123 @@
+/* Main Page */
+.page {
+  background-color: #dfd2b4;
+  min-height: 80vh;
+  padding: 30px 0;
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+.title {
+  font-size:  62px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  color: #222;
+  font-family:cinzel ;
+}
+
+
+/* --- FIX: POSITIONING THE BEGINNER TEXT INSIDE THE WHITE CARD --- */
+.beginner-text {
+    /* Override margin-top to place the text in the middle of the empty space */
+    margin-top: 80px; 
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+/* --- END FIX --- */
+
+/* --- FIX: CONTAINER FOR THE THREE BOTTOM BUTTONS --- */
+.level-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-bottom: 30px; /* Space at the bottom of the section */
+}
+/* --- END FIX --- */
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+/* Card */
+.card {
+  background-color: #c8c8be;
+  width: 250px;
+  height: 400px;
+  padding: 50px 0 60px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.green {
+  background-color: #cbd8b0;
+}
+
+.card.red {
+  background-color: #c28a79;
+}
+
+.card.blue {
+  background-color: #c1d6d6;
+  
+}
+
+/* Image Box */
+.img-box img{
+  width: 180px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title */
+.lang-title {
+  margin-top: 30px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #2b2b2b;
+  text-align: center;
+}
+
+.level-buttons-container {
+    display: flex;
+    justify-content: center; /* Centers the row of buttons */
+    gap: 40px; /* Space between buttons */
+    flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+    margin-top: 20px; /* Space below the language cards */
+    padding-bottom: 50px; /* Padding for the bottom of the section */
+}
+/* Button */
+.btn {
+ 
+  padding: 10px 25px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 150px;
+  text-align: center;
+  width: 250px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #f1e6d6;
+}

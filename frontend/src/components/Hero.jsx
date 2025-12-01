@@ -1,24 +1,25 @@
 // components/Hero.jsx
 import React from 'react';
-import Hero_background from '../assets/Hero_background.jpg';
+import Hero_background from '../assets/Hero_background.png';
+
 
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center">
-      {/* Background Image - REMPLACEZ '/images/hero-bg.jpg' par le chemin de votre image */}
+    <section className="relative w-full min-h-screen">
+      {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat "
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${Hero_background})` }}
       >
         {/* Overlay sombre pour mieux lire le texte */}
         <div className="absolute inset-0 bg-black/0"></div>
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+      {/* Content - AJOUT: pt-32 pour laisser de l'espace pour la navbar */}
+      <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto flex flex-col items-center justify-center min-h-screen pt-20">
         {/* Titre principal */}
-        <div className='bg-[#454B62] px-5 py-7 rounded-lg shadow-2xl mb-8 border-2 border-white/20'>
-            <h1 className="text-5xl md:text-7xl font-bold mb-1 font-macondo tracking-wide">
+        <div className='/50 px-5 py-7 rounded-lg shadow-2xl mb-8 border-2 border-[#7B1B1B]/20'>
+            <h1 className="text-5xl md:text-7xl font-bold mb-1 font-macondo tracking-wide text-[#7B1B1B]">
                 AVATECH : THE RISE OF THE FOUR NATIONS
             </h1>
         </div>

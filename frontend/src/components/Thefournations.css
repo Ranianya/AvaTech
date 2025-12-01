@@ -1,7 +1,7 @@
 .tf-container {
   text-align: center;
   padding: 34px;
-  background-color: #F0F0F0;
+  background-color: #D6C8AB;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -9,6 +9,7 @@
   font-size: 32px;
   margin-bottom: 20px;
   color: #333;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 .tf-images-grid {
   display: flex;
@@ -20,9 +21,12 @@
   background-color: #d8d6d6fb;
   border-radius: 20px;
   padding: 10px;
-  width: 140px;
+  width: 250px;
+  height: 320px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(115, 123, 163, 0.941);
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 .tf-card-title {
   font-size: 15px;
@@ -30,8 +34,8 @@
   color: #080000;
 }
 .tf-image {
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 15px;
   margin: 10px auto;
@@ -60,4 +64,60 @@
 .tf-title:hover {
     color: #725266;
     transform: translateY(-5px);
+}
+/* NATION DU FEU (Rouge) */
+.btn-fire {
+  background-color: #C84646; /* Rouge Feu */
+}
+.btn-fire:hover {
+  background-color: #9A3636; /* Rouge plus foncé au survol */
+}
+/* NATION DE L'EAU (Bleu) */
+.btn-water {
+  background-color: #3A7CA6; /* Bleu Eau */
+}
+.btn-water:hover {
+  background-color: #2D6083; /* Bleu plus foncé au survol */
+}
+/* NATION DE L'AIR (Jaune/Orangée) */
+.btn-air {
+  background-color: #E7B84F; /* Jaune Air */
+}
+.btn-air:hover {
+  background-color: #B99341; /* Jaune plus foncé au survol */
+}
+/* NATION DE LA TERRE (Vert/Brun) */
+.btn-earth {
+  background-color: #5D8B6D; /* Vert Terre (exemple d'une couleur plus foncée pour la Terre) */
+}
+.btn-earth:hover {
+  background-color: #486E55; /* Vert plus foncé au survol */
+}
+/* 1. NATION DU FEU */
+.tf-card.fire-card {
+  background-color: #FDE7E7; /* Rouge très pâle */
+}
+.tf-card.fire-card:hover {
+  box-shadow: 0 4px 15px rgba(200, 70, 70, 0.8); /* Lueur rouge */
+}
+/* 2. NATION DE L'EAU */
+.tf-card.water-card {
+  background-color: #E8F3FA; /* Bleu très pâle */
+}
+.tf-card.water-card:hover {
+  box-shadow: 0 4px 15px rgba(58, 124, 166, 0.8); /* Lueur bleue */
+}
+/* 3. NATION DE L'AIR */
+.tf-card.air-card {
+  background-color: #FFFBE8; /* Jaune très pâle */
+}
+.tf-card.air-card:hover {
+  box-shadow: 0 4px 15px rgba(231, 184, 79, 0.8); /* Lueur jaune */
+}
+/* 4. NATION DE LA TERRE */
+.tf-card.earth-card {
+  background-color: #EFF4EE; /* Vert très pâle */
+}
+.tf-card.earth-card:hover {
+  box-shadow: 0 4px 15px rgba(93, 139, 109, 0.8); /* Lueur verte */
 }
