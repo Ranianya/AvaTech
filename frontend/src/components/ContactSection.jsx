@@ -31,11 +31,7 @@ const ContactSection = () => {
         
         <div className="contact-card email-card text-left px-3 relative">
           
-          <img 
-            src={CSE_logo}
-            alt="CSE Logo" 
-            className={`${logoSizeClass} absolute left-1 transform -translate-x-1/2 top-[-6px] h-auto`}
-          />
+          
           
           <p className="card-title text-xs font-bold mb-1 text-gray-800 opacity-80 uppercase pt-20">
             OUR EMAIL ADRESS
@@ -73,6 +69,18 @@ const ContactSection = () => {
             <span className="text-4xl font-extrabold" style={{ fontFamily: 'Georgia, serif' }}>O</span>
           </a>
         </div>
+
+           
+      </div>
+          <div className="flex items-center justify-center gap-2 mt-8">
+        <img 
+          src={CSE_logo}
+          alt="CSE Logo" 
+          className="w-30 h-15" // Taille réduite pour le copyright
+        />
+        <p className="text-center text-black text-sm">
+          &copy; 2025 CSE. All rights reserved.
+        </p>
       </div>
     </section>
   );
