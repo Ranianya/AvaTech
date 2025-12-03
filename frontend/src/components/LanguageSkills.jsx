@@ -1,5 +1,9 @@
 import React from "react";
 import "./LanguageSkills.css";
+import pythonImg from "../assets/9293.jpg";
+import javaImg from "../assets/9296.jpg";
+import cppImg from "../assets/9299.jpg";
+import jsImg from "../assets/9302.jpg";
 
 export default function LanguageSkills() {
   return (
@@ -12,7 +16,7 @@ export default function LanguageSkills() {
         {/* PYTHON */}
         <div className="card">
           <div className="img-box"> 
-                <img src="/src/assets/9293.jpg" alt="PYTHON" />
+                <img src={pythonImg} alt="PYTHON" />
             </div>
           <h2 className="lang-title">PYTHON</h2>
         </div>
@@ -20,7 +24,7 @@ export default function LanguageSkills() {
         {/* JAVA */}
         <div className="card green">
           <div className="img-box"> 
-                <img src="/src/assets/9296.jpg" alt="JAVA" />
+                <img src={javaImg} alt="JAVA" />
             </div>
           <h2 className="lang-title">JAVA</h2>
         </div>
@@ -28,7 +32,7 @@ export default function LanguageSkills() {
         {/* C++ */}
         <div className="card red">
           <div className="img-box"> 
-                <img src="/src/assets/9299.jpg" alt="C++" />
+                <img src={cppImg} alt="C++" />
             </div>
           <h2 className="lang-title">C++</h2>
         </div>
@@ -36,7 +40,7 @@ export default function LanguageSkills() {
         {/* JAVASCRIPT */}
         <div className="card blue">
           <div className="img-box"> 
-                <img src="/src/assets/9302.jpg" alt="JAVASCRIPT" />
+                <img src={jsImg} alt="JAVASCRIPT" />
             </div>
           <h2 className="lang-title">JAVASCRIPT</h2>
         </div>
